@@ -1,0 +1,8 @@
+﻿  error - 'AdminPaymentsScreen' isn't a function - lib\screens\admin\admin_dashboard.dart:512:21 - invocation_of_non_function
+  error - The name 'AdminPaymentsScreen' is defined in the libraries 'package:techie_go/screens/admin/admin_payments.dart' and 'package:techie_go/screens/admin/payment_details.dart' - lib\screens\admin\admin_dashboard.dart:512:21 - ambiguous_import
+  error - The method 'PaymentDetails' isn't defined for the type '_AdminDashboardState' - lib\screens\admin\admin_dashboard.dart:519:21 - undefined_method
+  error - 'AdminPaymentsScreen' isn't a function - lib\screens\admin\admin_dashboard.dart:876:39 - invocation_of_non_function
+  error - The name 'AdminPaymentsScreen' is defined in the libraries 'package:techie_go/screens/admin/admin_payments.dart' and 'package:techie_go/screens/admin/payment_details.dart' - lib\screens\admin\admin_dashboard.dart:876:39 - ambiguous_import
+  error - 'AdminPaymentsScreen' isn't a function - lib\screens\admin\admin_dashboard.dart:1057:21 - invocation_of_non_function
+  error - The name 'AdminPaymentsScreen' is defined in the libraries 'package:techie_go/screens/admin/admin_payments.dart' and 'package:techie_go/screens/admin/payment_details.dart' - lib\screens\admin\admin_dashboard.dart:1057:21 - ambiguous_import
+  error - The method 'PaymentDetails' isn't defined for the type '_AdminDashboardState' - lib\screens\admin\admin_dashboard.dart:1110:53 - undefined_method
