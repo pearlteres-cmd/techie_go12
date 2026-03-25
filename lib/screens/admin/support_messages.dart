@@ -98,9 +98,9 @@ class _AdminSupportMessagesState extends State<AdminSupportMessages> {
         title: Text('Reply to ${message['userName'] ?? 'User'}'),
         content: TextField(
           controller: replyController,
-          decoration: InputDecoration(
-            hintText: 'Type your reply...',
-            border: OutlineInputBorder(),
+           decoration: const InputDecoration(
+             hintText: 'Type your reply...',
+             border: OutlineInputBorder(),
           ),
           maxLines: 3,
           autofocus: true,
@@ -108,12 +108,12 @@ class _AdminSupportMessagesState extends State<AdminSupportMessages> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx, false),
-            child: Text('Cancel'),
+             child: const Text('Cancel'),
           ),
           ElevatedButton(
             onPressed: () => Navigator.pop(ctx, true),
             style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
-            child: Text('Send'),
+             child: const Text('Send'),
           ),
         ],
       ),
@@ -176,12 +176,12 @@ class _AdminSupportMessagesState extends State<AdminSupportMessages> {
             color: Colors.grey.shade100,
             child: Row(
               children: [
-                Icon(Icons.email, size: 16, color: Colors.blue),
+                 const Icon(Icons.email, size: 16, color: Colors.blue),
                 const SizedBox(width: 4),
                 Text(widget.user.email),
                 if (widget.user.phone.isNotEmpty == true) ...[
                   const SizedBox(width: 16),
-                  Icon(Icons.phone, size: 16, color: Colors.green),
+                   const Icon(Icons.phone, size: 16, color: Colors.green),
                   const SizedBox(width: 4),
                   Text(widget.user.phone),
                 ],
@@ -197,7 +197,7 @@ class _AdminSupportMessagesState extends State<AdminSupportMessages> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Icons.error_outline,
+                            const Icon(Icons.error_outline,
                                 size: 60, color: Colors.red),
                             const SizedBox(height: 16),
                             Text(_errorMessage!),
@@ -214,7 +214,7 @@ class _AdminSupportMessagesState extends State<AdminSupportMessages> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.message,
+                                const Icon(Icons.message,
                                     size: 80, color: Colors.grey),
                                 const SizedBox(height: 16),
                                 const Text(
@@ -295,7 +295,7 @@ class _AdminSupportMessagesState extends State<AdminSupportMessages> {
                                                     true)
                                                   Row(
                                                     children: [
-                                                      Icon(Icons.phone,
+                                                       const Icon(Icons.phone,
                                                           size: 12,
                                                           color: Colors.grey),
                                                       const SizedBox(width: 4),

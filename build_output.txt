@@ -1,0 +1,27 @@
+﻿Running Gradle task 'assembleDebug'...                          
+
+ERROR: JAVA_HOME is set to an invalid directory: C:\Users\pearl\Downloads
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+Running Gradle task 'assembleDebug'...                              83ms
+flutter : Gradle task 
+assembleDebug failed 
+with exit code 1
+At line:1 char:1
++ flutter build apk 
+--debug 2>&1 | 
+Out-File -FilePath 
+C:\Users\pearl\te ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Gradle tas   
+ k ass...ith exit     
+code 1:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 

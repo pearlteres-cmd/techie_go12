@@ -147,7 +147,7 @@ class _TechnicianAssignedComplaintsState
                   Container(
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: complaint.priorityColor.withOpacity(0.1),
+                      color: complaint.priorityColor.withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Icon(
@@ -212,7 +212,7 @@ class _TechnicianAssignedComplaintsState
                       vertical: 4,
                     ),
                     decoration: BoxDecoration(
-                      color: complaint.statusColor.withOpacity(0.1),
+                      color: complaint.statusColor.withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Row(

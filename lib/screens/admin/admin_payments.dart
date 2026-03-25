@@ -113,7 +113,7 @@ class _AdminPaymentsScreenState extends State<AdminPaymentsScreen> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.error_outline, size: 60, color: Colors.red),
+                      const Icon(Icons.error_outline, size: 60, color: Colors.red),
                       const SizedBox(height: 16),
                       Text(
                         _error!,
@@ -133,7 +133,7 @@ class _AdminPaymentsScreenState extends State<AdminPaymentsScreen> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.payment, size: 80, color: Colors.grey),
+                          const Icon(Icons.payment, size: 80, color: Colors.grey),
                           const SizedBox(height: 16),
                           const Text(
                             'No payments found',
@@ -270,12 +270,12 @@ class _AdminPaymentsScreenState extends State<AdminPaymentsScreen> {
                                             ),
                                             decoration: BoxDecoration(
                                               color: statusColor
-                                                  .withOpacity(0.1),
+                                                  .withValues(alpha: 0.1),
                                               borderRadius:
                                                   BorderRadius.circular(12),
                                               border: Border.all(
                                                 color: statusColor
-                                                    .withOpacity(0.5),
+                                                    .withValues(alpha: 0.5),
                                               ),
                                             ),
                                             child: Text(

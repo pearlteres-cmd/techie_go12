@@ -94,7 +94,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     padding:
                         const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                     decoration: BoxDecoration(
-                      color: _getRoleColor(_user.userType).withOpacity(0.1),
+                       color: _getRoleColor(_user.userType).withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(20),
                       border: Border.all(color: _getRoleColor(_user.userType)),
                     ),

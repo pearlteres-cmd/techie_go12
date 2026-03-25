@@ -193,7 +193,7 @@ class _EditComplaintScreenState extends State<EditComplaintScreen> {
                               padding: const EdgeInsets.symmetric(vertical: 12),
                               decoration: BoxDecoration(
                                 color: _selectedPriority == priority
-                                    ? Colors.blue.withOpacity(0.2)
+                                    ? Colors.blue.withValues(alpha: 0.2)
                                     : null,
                                 borderRadius: BorderRadius.circular(8),
                               ),

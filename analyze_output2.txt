@@ -1,0 +1,555 @@
+Analyzing techie_go...                                          
+
+   info - Constructors for public widgets should have a named 'key' parameter - lib\main.dart:12:7 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter - lib\main.dart:27:7 - use_key_in_widget_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:40:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:84:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:85:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:88:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:93:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:94:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:96:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:102:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\main.dart:103:15 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\models\complaint_model.dart:87:9 - avoid_print
+   info - The private field _selectedExpertise could be 'final' - lib\screens\admin\add_technician.dart:24:16 - prefer_final_fields
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:54:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:55:20 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\add_technician.dart:80:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\add_technician.dart:82:32 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:83:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:84:24 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\add_technician.dart:89:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\add_technician.dart:98:28 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:115:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:119:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:131:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:139:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:150:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:157:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:172:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:179:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:194:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:201:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:220:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:223:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:225:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:230:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:234:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:259:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:274:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:275:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\add_technician.dart:277:34 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\admin\admin_dashboard.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\admin_dashboard.dart:159:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\admin_dashboard.dart:176:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\admin_dashboard.dart:193:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\admin_dashboard.dart:212:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\admin_dashboard.dart:229:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:621:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:633:35 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\admin_dashboard.dart:657:11 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:912:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:914:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:1000:34 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\admin_dashboard.dart:1082:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\admin_payments.dart:132:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\admin_payments.dart:133:30 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\admin\assign_technician.dart:48:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\assign_technician.dart:56:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\assign_technician.dart:98:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\assign_technician.dart:105:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\assign_technician.dart:107:32 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\screens\admin\assign_technician.dart:117:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\assign_technician.dart:118:28 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\admin\assign_technician.dart:298:27 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\admin\assign_technician.dart:299:27 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\assign_technician.dart:321:36 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:62:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:68:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:71:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:81:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:86:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:92:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:102:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:112:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\available_technicians.dart:119:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\available_technicians.dart:179:7 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\available_technicians.dart:197:30 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\available_technicians.dart:198:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\available_technicians.dart:199:22 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\available_technicians.dart:203:23 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\available_technicians.dart:209:28 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\available_technicians.dart:405:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\available_technicians.dart:406:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\available_technicians.dart:409:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\available_technicians.dart:412:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\available_technicians.dart:415:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\edit_profile.dart:245:35 - prefer_const_constructors
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\admin\employee_management.dart:444:15 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\manage_complaints.dart:194:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\manage_complaints.dart:231:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\manage_complaints.dart:268:64 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\screens\admin\manage_customers.dart:48:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\manage_customers.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\manage_customers.dart:90:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:98:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:99:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:99:50 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\admin\manage_customers.dart:126:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:146:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:150:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:159:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:163:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:179:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:179:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:181:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:182:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:185:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:186:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:187:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:190:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:196:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:201:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:207:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:225:43 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:231:43 - prefer_const_constructors
+   info - Local variables should be final - lib\screens\admin\manage_customers.dart:263:5 - prefer_final_locals
+   info - Local variables should be final - lib\screens\admin\manage_customers.dart:264:5 - prefer_final_locals
+   info - Local variables should be final - lib\screens\admin\manage_customers.dart:267:5 - prefer_final_locals
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:272:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:290:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:291:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:293:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:298:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:305:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:313:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:317:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:323:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:332:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:336:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:337:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:338:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:340:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:345:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:357:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:360:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:362:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:367:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:375:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:383:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:387:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:407:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:416:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:417:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:420:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:436:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:437:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:445:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:453:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:457:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:471:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:484:16 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\manage_customers.dart:486:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\manage_customers.dart:488:41 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:557:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:558:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:561:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:562:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:563:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:565:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:571:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:576:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:578:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:587:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:594:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:604:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:613:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:616:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:618:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:621:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:622:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:626:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:628:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:629:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:631:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_customers.dart:635:35 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\admin\manage_employees.dart:75:21 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\manage_employees.dart:94:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\manage_employees.dart:420:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\manage_employees.dart:421:49 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\manage_technicians.dart:91:29 - prefer_const_constructors
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\admin\notifications.dart:4:7 - use_key_in_widget_constructors
+   info - Don't invoke 'print' in production code - lib\screens\admin\notifications.dart:36:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\admin\notifications.dart:56:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\notifications.dart:76:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\notifications.dart:77:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\notifications.dart:80:23 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\payment_details.dart:78:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\payment_details.dart:80:63 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\payment_details.dart:84:30 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\admin\support_messages.dart:48:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\support_messages.dart:125:7 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\support_messages.dart:143:30 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\support_messages.dart:144:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\support_messages.dart:144:29 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\support_messages.dart:152:28 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\support_messages.dart:213:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\admin\support_messages.dart:214:36 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\task_management.dart:101:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\task_management.dart:121:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\task_management.dart:139:62 - deprecated_member_use
+   info - Local variables should be final - lib\screens\admin\task_management.dart:281:5 - prefer_final_locals
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\technician_detail_screen.dart:86:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\technician_detail_screen.dart:93:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\technician_detail_screen.dart:138:34 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\technician_detail_screen.dart:144:27 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\technician_detail_screen.dart:244:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\technician_detail_screen.dart:245:49 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\admin\technician_detail_screen.dart:302:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\view_complaints.dart:86:64 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\view_complaints.dart:137:57 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\view_complaints.dart:478:37 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\view_complaints.dart:655:23 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\view_complaints.dart:658:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\view_complaints.dart:665:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\view_complaints.dart:667:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\view_complaints.dart:677:21 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\view_complaints.dart:678:28 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\customer_login.dart:97:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\customer_login.dart:106:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\customer_login.dart:108:28 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\auth\landing_screen.dart:340:43 - deprecated_member_use
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\auth\login_screen.dart:9:7 - use_key_in_widget_constructors
+   info - Local variables should be final - lib\screens\auth\login_screen.dart:74:5 - prefer_final_locals
+   info - Local variables should be final - lib\screens\auth\login_screen.dart:75:5 - prefer_final_locals
+   info - Local variables should be final - lib\screens\auth\login_screen.dart:234:5 - prefer_final_locals
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\auth\register_screen.dart:5:7 - use_key_in_widget_constructors
+   info - Don't invoke 'print' in production code - lib\screens\auth\register_screen.dart:54:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:68:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:79:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:90:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:95:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:106:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:120:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:127:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:138:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:139:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:141:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:146:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:153:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:165:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:172:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:188:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:195:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:211:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:218:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:246:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:253:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:282:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:298:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:299:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:301:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:307:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\register_screen.dart:313:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\auth\staff_login.dart:21:13 - prefer_const_constructors
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\customer\complaint_form.dart:46:17 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\customer\complaint_form.dart:188:26 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\customer\complaint_form.dart:201:19 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\customer\customer_dashboard.dart:87:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\staff\staff_dashboard.dart:29:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\staff\staff_dashboard.dart:278:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\staff\staff_dashboard.dart:404:56 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\screens\technician\assigned_tasks.dart:47:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\technician\assigned_tasks.dart:55:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\technician\available_tasks.dart:41:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:53:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:54:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:58:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:65:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:66:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:75:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:86:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:90:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:96:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:96:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:98:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:99:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:102:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:103:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:104:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:106:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:108:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:109:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:111:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:117:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:122:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:124:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:130:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:135:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:138:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:140:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:143:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:145:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:148:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:150:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:154:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:163:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:166:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:168:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:172:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:177:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:180:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:182:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:185:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:189:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:194:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\available_tasks.dart:195:40 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\technician\completed_tasks.dart:42:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:66:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:70:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:76:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:76:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:78:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:79:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:82:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:83:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:84:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:86:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:92:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:97:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:99:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:108:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:115:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:123:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:125:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:134:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:138:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:153:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:161:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:167:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:175:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:181:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:184:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:186:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:189:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:191:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:194:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:198:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:232:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:235:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\completed_tasks.dart:241:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:74:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:79:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:80:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:111:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:116:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:125:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:136:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:141:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:143:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:153:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:179:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:184:38 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\technician\edit_profile.dart:195:53 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:198:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:199:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:208:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:214:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:222:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:223:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:235:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:242:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:243:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:253:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:258:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:260:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:261:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:265:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:272:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:273:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:287:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:293:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:295:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:300:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:304:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:317:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:336:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:343:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:345:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:349:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:350:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:352:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:356:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:372:32 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\technician\edit_profile.dart:383:35 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:394:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:395:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:397:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:417:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:419:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:424:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\edit_profile.dart:430:30 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\technician\tech_dashboard.dart:57:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\technician\tech_dashboard.dart:110:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\technician\tech_dashboard.dart:464:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\technician\tech_dashboard.dart:466:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\technician\tech_dashboard.dart:560:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\technician\tech_dashboard.dart:606:32 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\technician\update_complaint_status.dart:93:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\technician\update_complaint_status.dart:100:32 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\screens\technician\update_complaint_status.dart:109:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\screens\technician\update_complaint_status.dart:110:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\technician\update_complaint_status.dart:157:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\technician\update_complaint_status.dart:164:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\technician\update_complaint_status.dart:166:32 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\screens\technician\update_complaint_status.dart:175:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\screens\technician\update_complaint_status.dart:176:28 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\update_complaint_status.dart:320:36 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\technician\update_complaint_status.dart:412:61 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\screens\technician\view_user_profile.dart:49:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:61:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:65:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:65:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:67:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:77:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:92:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:95:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:100:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:102:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:118:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:129:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:138:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:142:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:144:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:149:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:169:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:179:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:180:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:183:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:189:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:190:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:203:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:207:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:221:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:236:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\view_user_profile.dart:249:20 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\technician\working_tasks.dart:42:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:62:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:63:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:67:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:74:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:75:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:84:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:107:16 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:111:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:117:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:117:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:119:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:120:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:123:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:124:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:125:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:127:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:133:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:138:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:140:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:150:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:157:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:165:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:167:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:176:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:182:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:197:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:205:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:209:43 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:211:52 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:219:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:225:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:233:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:238:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:242:47 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:245:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:265:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:273:43 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:274:44 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:277:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:281:43 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\technician\working_tasks.dart:282:44 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\edit_complaint.dart:80:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\edit_complaint.dart:86:23 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\edit_profile.dart:62:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\edit_profile.dart:86:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\edit_profile.dart:169:28 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\edit_profile.dart:283:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\edit_profile.dart:285:26 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\screens\user\my_complaints.dart:48:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\user\my_complaints.dart:60:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\my_complaints.dart:180:28 - deprecated_member_use
+   info - Local variables should be final - lib\screens\user\my_complaints.dart:292:5 - prefer_final_locals
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\my_complaints.dart:329:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\my_complaints.dart:396:64 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\user\profile_screen.dart:45:38 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\screens\user\register_complaint.dart:100:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\user\register_complaint.dart:122:7 - avoid_print
+   info - Local variables should be final - lib\screens\user\register_complaint.dart:160:7 - prefer_final_locals
+   info - Local variables should be final - lib\screens\user\register_complaint.dart:180:7 - prefer_final_locals
+   info - 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings - lib\screens\user\register_complaint.dart:181:9 - deprecated_member_use
+   info - Local variables should be final - lib\screens\user\register_complaint.dart:208:5 - prefer_final_locals
+   info - Local variables should be final - lib\screens\user\register_complaint.dart:218:5 - prefer_final_locals
+   info - Local variables should be final - lib\screens\user\register_complaint.dart:282:7 - prefer_final_locals
+   info - Local variables should be final - lib\screens\user\register_complaint.dart:283:7 - prefer_final_locals
+   info - Local variables should be final - lib\screens\user\register_complaint.dart:314:9 - prefer_final_locals
+   info - Don't invoke 'print' in production code - lib\screens\user\register_complaint.dart:320:7 - avoid_print
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\register_complaint.dart:473:33 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\register_complaint.dart:474:33 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\register_complaint.dart:496:29 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\register_complaint.dart:497:29 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\register_complaint.dart:548:29 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\register_complaint.dart:549:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\register_complaint.dart:629:42 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\register_complaint.dart:672:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\register_complaint.dart:673:42 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\register_complaint.dart:674:46 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\support_chat.dart:98:28 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\support_chat.dart:120:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\support_chat.dart:125:19 - prefer_const_constructors
+   info - The private field _pendingCount could be 'final' - lib\screens\user\user_dashboard.dart:19:7 - prefer_final_fields
+   info - The private field _assignedCount could be 'final' - lib\screens\user\user_dashboard.dart:20:7 - prefer_final_fields
+   info - The private field _completedCount could be 'final' - lib\screens\user\user_dashboard.dart:21:7 - prefer_final_fields
+   info - The private field _totalCount could be 'final' - lib\screens\user\user_dashboard.dart:22:7 - prefer_final_fields
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\user_dashboard.dart:49:28 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\user_dashboard.dart:50:9 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\user_dashboard.dart:277:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\user_dashboard.dart:287:39 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\user\user_dashboard.dart:295:13 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\user_dashboard.dart:304:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\user_dashboard.dart:496:34 - deprecated_member_use
+   info - Local variables should be final - lib\services\api_service.dart:21:7 - prefer_final_locals
+   info - Don't invoke 'print' in production code - lib\services\api_service.dart:25:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\api_service.dart:26:25 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\api_service.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\api_service.dart:70:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\api_service.dart:82:7 - avoid_print
+   info - Local variables should be final - lib\services\api_service.dart:233:9 - prefer_final_locals
+   info - Local variables should be final - lib\services\api_service.dart:296:7 - prefer_final_locals
+   info - Local variables should be final - lib\services\api_service.dart:386:5 - prefer_final_locals
+   info - Local variables should be final - lib\services\api_service.dart:455:7 - prefer_final_locals
+   info - Local variables should be final - lib\services\api_service.dart:456:7 - prefer_final_locals
+   info - Local variables should be final - lib\services\api_service.dart:545:7 - prefer_final_locals
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:16:21 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:28:9 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:52:23 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:55:11 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:68:7 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\services\payment_service.dart:88:13 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:101:31 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:102:31 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\payment_service.dart:105:19 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\complaint_card.dart:56:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\feature_card.dart:24:33 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\notification_badge.dart:70:26 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\notification_badge.dart:142:24 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - test\widgets\custom_widgets_test.dart:100:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\widgets\custom_widgets_test.dart:101:17 - prefer_const_constructors
+
